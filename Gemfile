@@ -22,6 +22,7 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
+    gem 'bundler', '~> 2.3.0'
     gem 'google-protobuf', '4.28.2'
     gem 'css_parser'
     gem 'feedjira'
